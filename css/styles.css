@@ -1,0 +1,24 @@
+.noList {
+  list-style: none;
+}
+
+.padding {
+  padding-top: 50px;
+}
+
+.recieptStyling {
+  background-image: url('images/background-image.png');
+  background-size: cover;
+  visibility: hidden;
+}
+
+body {
+  background-image: url('images/mooning.png');
+}
+
+.inputBoxes {
+  float: right;
+}
+.inputTitles {
+  float:left;
+}

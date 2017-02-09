@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab8</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class='row'>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-4">
+            <form>
+                <h2 class="text-center">Shopping List</h2>
+                <br>
+                <label>Please enter item:</label>
+                <input id="groceryInput" class="inputBoxes" type="text" placeholder="Enter item here"></input>
+                <br>
+                <br>
+                <label>Please enter price:</label>
+                <input id="priceInput" class="inputBoxes" type="text" placeholder="Enter price here"></input>
+                <br>
+                <br>
+                <label>Please enter quantity:</label>
+                <input id="quantityInput" class="inputBoxes" type="text" placeholder="Enter quantity here"></input>
+                <br>
+                <br>
+                <br>
+                <div class="text-center">
+                    <button type="button" onclick="toCart()">Add to Cart</button>
+                </div>
+            </form>
+            </div>
+            <div id="recieptList" class="col-md-4 text-center padding recieptStyling">
+                <h1 class="text-center">Reciept</h1>
+                <br>
+                <br>
+                <ul id="listItem" class="noList">
+
+                </ul>
+                <ul id="totalItem" class="noList">
+
+                </ul>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
