@@ -7,7 +7,8 @@
 }
 
 .recieptStyling {
-  background-image: url('images/background-image.png');
+  /*background-image: url('images/background-image.png');*/
+  background-color: white;
   background-size: cover;
   visibility: hidden;
 }
@@ -21,4 +22,18 @@ body {
 }
 .inputTitles {
   float:left;
+}
+
+#totalItem {
+  font-size: 20px;
+}
+.spanPadding {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.spanElPrice {
+  float: right;
+}
+.spanElQty {
+  padding-right: 10px;
 }
